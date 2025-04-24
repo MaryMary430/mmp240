@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excercise10</title>
+    <style>
+        nav ul{
+            padding:0;
+            
+        }
+        nav li a{
+            display:block;
+            background-color: brown;
+            color:bisque;
+            text-decoration: none;
+            padding: 1em, 1em;
+            /*display:block;*/
+            border-bottom:solid 1px white;
+        }
+        
+        nav li li a{
+            background-color: beige;
+            color:black;
+        }
+
+        li.dropdown ul{
+            display:none;
+            /*position:absolute;*/
+        }
+
+        li.dropdown:hover ul{
+            display:block;
+        }
+
+        .material-symbols-outlines{
+            float:right;
+            color:black;
+            padding-top:5px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=keyboard_arroe_down"/>
+</head>
+<body>
+    <nav>
+<ul>
+    <li class="dropdown">
+    
+        <span class="material-symbols-outlines">
+            keyboard_arrow_down
+        </span>
+
+
+
+
+    </li>
+
+
+        <a href="">Fruits</a>
+        <ul>
+            <li><a href="#">Tangerine</a></li>
+            <li><a href="#">Grapes</a></li>
+            <li><a href="#">Strawberries</a></li>
+        </ul>
+    </li>
+    <li class="dropdown">
+
+        <span class="material-symbols-outlined">
+            keyboard_arrow_down
+        </span>
+        
+        <a href="">Vegetables</a> 
+        <ul>
+        <li><a href="#">Onions</a></li>
+        <li><a href="#">Garlic</a></li>
+        <li><a href="#">Peppers</a></li>
+    </li>
+
+</ul>
+
+
+    </nav>
+    
+</body>
+</html>
