@@ -1,0 +1,182 @@
+
+/*{
+    margin:0;
+    padding:0;
+    border:none;
+
+}*/
+
+
+
+body{
+    
+    background-color:black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+h2{
+    font-size: 1.75em;font-family: sans-serif; font-style:bold;
+
+}
+
+h6  {
+    margin: 0%;
+    font:helvetica;
+    font-style: normal;
+    
+}
+h4{
+    margin-top: .75em;
+}
+
+p{
+    font-size: .85rem;
+    font-style: normal;
+}
+
+#wrapper{
+    max-width:1280px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+header{
+    padding: 4em 2em;
+    
+    background:
+    linear-gradient(90deg, rgba(0,0,0,1) 28%, rgba(0,0,0,0) 100%),
+    url("images/banner.png") no-repeat 300px top, 
+    #000;
+
+
+}
+
+.bannerText{
+    color: #fff;
+    width: 45%;
+    
+
+}
+
+.btn{
+    color:#fff;
+    background-color: rgb(255, 72, 0);
+    text-decoration: none;
+    padding: 1em;
+    border-radius: 10px;
+    display:inline-block;
+
+}
+
+.btn:hover{
+    background-color: rgb(194, 55, 0);
+    text-decoration: underline;
+}
+
+nav{
+    background-color:rgb(200, 200, 200);
+    
+
+
+    
+}
+
+nav ul{
+    margin:0;
+}
+
+nav li{
+    display:inline-block;
+    margin-right:3em;
+   
+    
+
+}
+
+nav a{
+    display:inline-block;
+    padding: 0.75em 2em;
+    text-decoration: none;
+    color:black;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    background-color: rgb(160, 160, 160);
+}
+
+nav a:visited{
+    color:black;
+}
+
+footer{
+    color:#fff;
+    /*position:fixed;*/
+    
+    clear:both;
+}
+
+.col{
+    float:left;
+    width:48%;
+    margin-right:4%;
+
+}
+
+.col:last-child{
+    margin-right:0;
+}
+
+/*Episodes Page Styles*/
+
+.episodes{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    padding: 3.5em;
+    
+    
+}
+
+.episode-card{
+    padding: 15px;
+    width:230px;
+    margin-right:30px;
+    margin-bottom:30px;
+    justify-content: center;
+    border:solid .05rem #ababab;
+    flex:1 1 1;    /*flow-grow, flex-shrink, flex-basis*/
+    
+    
+    
+}
+
+.episode-card:hover{
+    background-color:rgb(114, 111, 111);
+}
+
+
+
+
+.episode-card img{
+    width:100%;
+    margin-left: 0%;
+    
+   
+
+}
+
+
+footer{
+    margin-top:150px;
+}
+
+
+
+
+
+@media screen and (max-width: 660px){
+
+}
