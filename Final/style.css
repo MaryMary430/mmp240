@@ -323,7 +323,14 @@ article img{
     grid-template-columns: 2fr 1fr;
     grid-gap:2em;
 }
+
+.programs-cards{
+    display: grid;
+;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 2em;
 }
+
 
 
 /*end of media query*/
