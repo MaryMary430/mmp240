@@ -12,7 +12,7 @@ nav ul{
 
 .btn{
     color:#000000;
-    background-color: #FCCCFF;
+    background-color: #f6b7fb;
     text-decoration:none;
     padding: 0.5em 1em;
     border-radius:10px;
@@ -74,7 +74,7 @@ border-radius:8px;
 /*choose a program*/
 
 .programs-nav{
-    background-color: #FFDB2A;
+    background-color: #d7a015;
     padding:15px;
     border-radius: 10px;
     border-style: solid;
@@ -106,14 +106,14 @@ li.dropdown:hover ul{
     text-decoration: none;
     /*padding:10px;
     margin:10px;*/
-    background-color: #E03091;
+    background-color: #bd30e0;
     display:block;
     color:#fff;
     
 }
 
 .dropdown ul {
-    background-color: #E03091;
+    background-color: #8e30e0;
     border-radius: 10px 10px 10px 10px;
     
 }
@@ -157,21 +157,21 @@ article{
 }
 
 .articleone{
-    background-color: #AF86F1;
+    background-color: #784cbe;
     padding:10px;
     border: solid;
     border-radius: 10px;
 }
 
 .articletwo{
-    background-color: #D2D904;
+    background-color: #efcb17;
     padding:10px;
     border: solid;
     border-radius: 10px;
 }
 
 .articlethree{
-    background-color: #E03091;
+    background-color: #8011ca;
     padding:10px;
     border: solid;
     border-radius: 10px;
@@ -212,7 +212,7 @@ article img{
 }
 
 .card:hover{
-    box-shadow: 5px 5px 8px rgb(153, 153, 153);       /* x shift, y shift, blur, color */
+    box-shadow: 5px 5px 8px rgb(149, 91, 91);       /* x shift, y shift, blur, color */
     transform:rotate(1deg);
     
 
@@ -314,7 +314,7 @@ article img{
 
 
 #top-nav ul a{
-    background-color:#FDF9E1;
+    background-color:#fdd700;
 }
 /*MAIN GRID*/
 
